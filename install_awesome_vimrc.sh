@@ -14,5 +14,5 @@ try
 source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
-
+echo "let g:go_version_warning = 0" >> ~/.vimrc
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
